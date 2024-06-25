@@ -83,6 +83,6 @@ html {
     line-height: 1;
     white-space: pre;
     max-width: 760px;
-
+    z-index: 5;
 
 }
