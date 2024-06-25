@@ -14,7 +14,7 @@ html {
     position: relative;
     min-width: 800px;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     background-color: #fec7ee;
 } 
 
@@ -29,7 +29,7 @@ html {
 } 
 
 .page__title {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-weight: 800;
     font-style: normal;
     font-size: 116px;
@@ -39,6 +39,8 @@ html {
     text-align: center;
     max-width: 720px;
     margin: 0 auto; 
+    margin: 60px auto;
+    line-height: 1.17;
     
 }
 
@@ -48,17 +50,18 @@ html {
     inset: 0;
     z-index: 1;
     background-color: rgb(255, 255, 255 / 0.3);
+    padding-top: 60px;
     
 }
 
 .page__title::after {
     content: '*';
     position: relative;
+    margin: 60px auto;
 }
 
 .page__title:hover {
     cursor: default;
-    color: #4c4c4c;
 }
 
 .page__title:hover::before {
